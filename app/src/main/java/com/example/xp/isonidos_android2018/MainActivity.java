@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     int sonido1;
     int sonido2;
     int sonido3;
+    int sonido4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         sonido1 = sonidos.load(this, R.raw.ramonpitis_orejudo,1);
         sonido2 = sonidos.load(this,R.raw.simpsons_correplatano,1);
         sonido3 = sonidos.load(this,R.raw.me_da_igual,1);
+        sonido4 = sonidos.load(this,R.raw.siuuu,1);
     }
     public void sonido(View vista)
     {

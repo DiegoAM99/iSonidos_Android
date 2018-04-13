@@ -30,6 +30,18 @@
             android:text="SONIDO3"
             android:onClick="sonido"
             />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SONIDO4"
+            android:onClick="sonido"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".70"
+        android:orientation="horizontal">
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
